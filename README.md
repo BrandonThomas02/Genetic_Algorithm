@@ -14,3 +14,4 @@ Controls all of the individuals and can find the best and average scores/individ
 
 ## Main
 Drives the program alongside getting inputs from the console
+
