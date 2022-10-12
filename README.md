@@ -2,9 +2,11 @@
 Genetic Algorithm Using Strings In multiple languages
 
 ## General Basis
-Imitates natural selection to get the best individuals based on a scoring process. 
-Used in this implementation to randomly match a given key string by splicing random individuals of the population together where the higher. scoring individuals are more likely to be chosen.
-The population slowly gets better over time by repeating this process many times while including a random mutation chance to reach the key value inputed by the user.
+The program asks the user for a key input string for the random individuals to match.
+Individuals are then created of the same length as the inputted key, but all of it's characters are random.
+The individuals then go through a re-populating phase where the individuals with the highest similarity to the key are given a higher chance to pass on their values (DNA) to the next generation.
+This process is repeated until an individual perfectly matching the key string is found.
+
 
 ## Individual
 The members of the population which hold the data values that get scored to find fitness
