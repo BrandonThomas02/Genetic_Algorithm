@@ -51,8 +51,8 @@ int main(){
                     << "\n";
             }
             if(pause){
-                cout << "Process Paused press enter to continue\n";
-                string temp;
+                cout << "Process Paused:\n \ttype any charachter and press enter to continue\n";
+                char temp;
                 cin >> temp;
             }
         }
@@ -63,12 +63,11 @@ int main(){
                     << "\t Average Score: " << pop->average_score() << "\n"
                     << "\n";
 
-        cout << "Would you like to continue?";
+        cout << "Would you like to continue? (y/n)";
         cin >> result;
         result[0] = tolower(result[0]);
-        bool results = (result[0] == 'y')? true : false;
+        results = (result[0] == 'y')? true : false;
         if(results){cout <<'\n'; continue; }
         else{break;}
-
     }
 }
